@@ -28,7 +28,7 @@ function About() {
       <div className="about-grid">
         <div className="about-grid-info">
           <p className="about-grid-info-text">
-            Bonjour! My name is Kishan, and I am passionate about creating
+            Bonjour! My name is Chandramani, and I am passionate about creating
             digital content for the web. My interest in web development was
             sparked in 2016 when I created my first project called Lavish, a
             social media app built using React and Node.js.
@@ -68,8 +68,8 @@ function About() {
             <li className="about-grid-info-list-item">Typescript</li>
             <li className="about-grid-info-list-item">Redux Toolkit</li>
             <li className="about-grid-info-list-item">Node.js</li>
-            <li className="about-grid-info-list-item">Elasticsearch</li>
-            <li className="about-grid-info-list-item">Kibana</li>
+            <li className="about-grid-info-list-item">React Native</li>
+            <li className="about-grid-info-list-item">GraphQl</li>
             <li className="about-grid-info-list-item">CSS</li>
           </ul>
         </div>
@@ -77,7 +77,7 @@ function About() {
           <div className="overlay"></div>
           <div className="overlay-border"></div>
           <div className="about-grid-photo-container">
-            <Image src="/kishan.jpeg" alt="profile" fill />
+            <Image src="/chandra.jpg" alt="profile" fill />
           </div>
         </div>
       </div>

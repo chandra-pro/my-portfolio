@@ -2,7 +2,11 @@ import React from "react";
 
 function Logo() {
   return (
-    <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <svg
+      id="logo"
+      xmlns="https://static.vecteezy.com/system/resources/previews/000/606/820/original/c-circle-logo-template-design-vector.jpg"
+      viewBox="0 0 100 100"
+    >
       <title>Logo</title>
       <g>
         <g id="K" transform="translate(35.000000, 35.000000)">

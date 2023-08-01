@@ -22,12 +22,12 @@ function Hero() {
         initial={{ opacity: 0, y: 5 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{
-          duration: 0.3,
+          duration: 0.6,
           ease: "easeInOut",
           delay: 0.75,
         }}
       >
-        Kishan Sheth.
+        Chandramani Kumar
       </motion.h2>
       <motion.h3
         className="hero-title-large hero-title-sub"

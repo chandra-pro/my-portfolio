@@ -22,7 +22,7 @@ function Loader({ isLoading, setIsLoading }: any) {
         >
           <motion.svg
             id="logo"
-            xmlns="http://www.w3.org/2000/svg"
+            xmlns="https://static.vecteezy.com/system/resources/previews/000/606/820/original/c-circle-logo-template-design-vector.jpg"
             viewBox="0 0 100 100"
           >
             <title>Logo</title>
