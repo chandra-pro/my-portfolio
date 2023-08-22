@@ -16,11 +16,7 @@ function SocialIcons() {
       icon: <FiGithub />,
       link: "https://www.github.com/chandra-pro",
     },
-    {
-      name: "Youtube",
-      icon: <FiYoutube />,
-      link: "https://www.youtube.com/",
-    },
+
     {
       name: "LinkedIn",
       icon: <FiLinkedin />,
