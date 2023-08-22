@@ -53,10 +53,7 @@ function Hero() {
       >
         I&apos;m a software engineer with expertise in creating top-notch
         digital experiences. My current focus is on developing products that are
-        accessible and centered around user needs, as part of the team at&nbsp;
-        <Link href="https://rapidops.com" target="_blank" className="link">
-          Rapidops.
-        </Link>
+        accessible and centered around user needs
       </motion.p>
       <motion.div
         className="hero-button"
@@ -68,10 +65,9 @@ function Hero() {
           delay: 1.65,
         }}
       >
-        <Button
-          text="Check out my course"
-          link="https://youtube.com/kishansheth21"
-        />
+        {/* <div className="contact-cta"> */}
+        <Button link="mailto:goluchandra1812@gmail.com" text="contact me" />
+        {/* </div> */}
       </motion.div>
     </div>
   );

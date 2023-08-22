@@ -7,30 +7,23 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      image: "/project1.png",
-      projectName: "Pokedex",
-      projectLink: "https://netlify.com",
+      image: "/project1.jpeg",
+      projectName: "Buybold",
+      projectLink: "https://play.google.com/store/apps/details?id=com.buybold",
       projectDescription:
-        "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
-      projectTech: [
-        "React",
-        "Redux Toolkit",
-        "SCSS",
-        "Firebase",
-        "Typescript",
-        "PokeApi",
-      ],
+        "This is a Ecommerce based application that helps users to buy products using comparing products thrugh the videos of influencers.",
+      projectTech: ["React Native", "React Hooks", "MongoDb", "firebase", ""],
       projectExternalLinks: {
-        github: "",
+        github: "https://github.com/nilarnab/buyBold_React_React",
         externalLink: "",
       },
     },
     {
-      image: "/project2.png",
+      image: "/project2.jpeg",
       projectName: "Realtime Chat App",
-      projectLink: "https://netlify.com",
+      projectLink: "https://github.com/chandra-pro/chat-frontend",
       projectDescription:
-        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
+        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React.",
       projectTech: [
         "React",
         "Sockets",
@@ -40,26 +33,19 @@ function Projects() {
         "Styled Components",
       ],
       projectExternalLinks: {
-        github: "",
+        github: "https://github.com/chandra-pro/chat-frontend",
         externalLink: "",
       },
     },
     {
-      image: "/project3.png",
-      projectName: "Netflix App",
-      projectLink: "https://netlify.com",
+      image: "/project3.jpeg",
+      projectName: "Ecommerce website",
+      projectLink: "https://github.com/chandra-pro/ecommerce_frontend",
       projectDescription:
-        "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
-      projectTech: [
-        "React",
-        "Node.js",
-        "Firebase",
-        "MongoDB",
-        "Express",
-        "Redux Toolkit",
-      ],
+        "This is a ECommerce based website using context hook having feature of pagination,search,filter and many more",
+      projectTech: ["React", "Node.js", "MongoDB", "Express", "Redux Toolkit"],
       projectExternalLinks: {
-        github: "",
+        github: "https://github.com/chandra-pro/ecommerce_frontend",
         externalLink: "",
       },
     },
@@ -115,7 +101,7 @@ function Projects() {
                     <p>{projectDescription}</p>
                   </div>
                   <ul className="project-info-tech-list">
-                    {projectTech.map((tech) => (
+                    {projectTech.map(tech => (
                       <li className="project-info-tech-list-item" key={tech}>
                         {tech}
                       </li>

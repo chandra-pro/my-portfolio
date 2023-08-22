@@ -22,12 +22,12 @@ function Loader({ isLoading, setIsLoading }: any) {
         >
           <motion.svg
             id="logo"
-            xmlns="https://static.vecteezy.com/system/resources/previews/000/606/820/original/c-circle-logo-template-design-vector.jpg"
+            xmlns="https://i.pinimg.com/originals/07/8a/dd/078adde3c96820567dafa55a636d387d.jpg"
             viewBox="0 0 100 100"
           >
-            <title>Logo</title>
+            <title>Portfolio</title>
             <g>
-              <g id="K" transform="translate(35.000000, 35.000000)">
+              <g id="C" transform="translate(35.000000, 35.000000)">
                 <motion.path
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}

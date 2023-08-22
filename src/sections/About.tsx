@@ -30,33 +30,28 @@ function About() {
           <p className="about-grid-info-text">
             Bonjour! My name is Chandramani, and I am passionate about creating
             digital content for the web. My interest in web development was
-            sparked in 2016 when I created my first project called Lavish, a
-            social media app built using React and Node.js.
+            sparked in 2021 when I created my first project called InfoHub, a
+            quora based app built using React and firebase.
           </p>
           <p className="about-grid-info-text">
             Fast-forward to today, I specialize in designing and developing
-            high-quality solutions that delight our clients and exceed their
-            expectations at{" "}
-            <Link href="https://rapidops.com" className="link" target="_blank">
-              Rapidops.
-            </Link>
+            high-quality solutions
           </p>
 
           <p className="about-grid-info-text">
-            Additionally, I share my knowledge and passion with the world
-            through my YouTube channel, where I demonstrate how to build
-            full-stack applications.
+            Additionally, I have started learning NextJS,tailwind as they are
+            the emerging tech stack with different features.
           </p>
           <p className="about-grid-info-text">
             I am also working on a new project called&nbsp;
             <Link
               className="link"
               target="_blank"
-              href="https://frontendvita.com"
+              href="https://play.google.com/store/apps/details?id=com.buybold"
             >
-              FrontendVita,
+              BuyBold,
             </Link>
-            &nbsp;aimed at enhancing frontend development skills.
+            &nbsp;aimed at enhancing frontend and backend development skills.
           </p>
           <p className="about-grid-info-text">
             Here are a few technologies I’ve been working with recently:
